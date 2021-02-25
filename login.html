@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Login Form</title>
+  <script src="loginvalidation.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+ 
+</head>
+<body>
+  <section class="container">
+    <div class="login">
+      <h1>Login</h1>
+      <form method="post" action="login.php">
+        <p><input type="text" name="username" id="username" value="" placeholder="Username"></p>
+        <p><input type="password" name="password" id="password" value="" placeholder="Password"></p>
+        <input type="submit" class="btn waves-effect waves-light" value="submit" name="submit"  onclick="validate();" />
+      </form>
+    </div>
+</body>

@@ -1,0 +1,49 @@
+.background
+{
+	color:green;
+}
+.grid-container {
+    display: grid;
+    grid-auto-columns: 5fr;
+    grid-auto-flow: column;
+}
+.card {
+    min-width: 300px;
+}
+body, main {
+    display: inline-grid;
+
+
+}
+.modal-content
+{
+    margin-bottom: 200px;
+}
+a+a {
+    margin-left: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+#cart
+{
+margin-left: 490px;
+    margin-bottom: 390px;
+}
+/* Create four equal columns that sits next to each other */
+.col {
+    display: flex;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
